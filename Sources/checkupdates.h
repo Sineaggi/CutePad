@@ -12,7 +12,8 @@
 #define CHECKUPDATES_H
 
 #include <QObject>
-#include <QHttp>
+// FIXME
+// #include <QHttp>
 #include <QtCore>
 #include <QMessageBox>
 #include <QtGui>
@@ -30,10 +31,12 @@ signals:
 
 public slots:
     void stateChanged ( int state );
-    void responseHeaderReceived ( const QHttpResponseHeader & resp );
+    // FIXME
+    // void responseHeaderReceived ( const QHttpResponseHeader & resp );
     void requestFinished ( int id, bool error );
 private:
-    QHttp *http;
+    // FIXME
+    // QHttp *http;
 };
 
 #endif // CHECKUPDATES_H

@@ -7,7 +7,7 @@
 # A work of Serandibsoft, Sri Lanka               #
 # ############################################### #
 
-QT += core gui network
+QT += core gui network widgets printsupport
 
 TARGET = CutePad
 TEMPLATE = app

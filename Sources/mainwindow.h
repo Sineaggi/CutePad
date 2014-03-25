@@ -21,6 +21,15 @@
 #include "checkupdates.h"
 #include "about.h"
 
+#include <QGraphicsOpacityEffect>
+#include <QPrinter>
+#include <QDesktopWidget>
+#include <QMenu>
+#include <QPrintPreviewDialog>
+#include <QPrintDialog>
+#include <QColorDialog>
+#include <QFileDialog>
+#include <QInputDialog>
 
 namespace Ui {
     class MainWindow;

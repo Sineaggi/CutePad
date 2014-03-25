@@ -964,9 +964,10 @@ void MainWindow::setWindowState()
 void MainWindow::on_setImage_button_clicked()
 {
         QString  imagePath = QFileDialog::getOpenFileName(this,
-        tr("Open Image"),QDesktopServices::storageLocation
-        (QDesktopServices::PicturesLocation),
-        tr("Image Files (*.png *.jpg *.bmp)"));
+            tr("Open Image"),
+            // Add error check for empty array
+            QStandardPaths::standardLocations(QStandardPaths::PicturesLocation)[0],
+            tr("Image Files (*.png *.jpg *.bmp)"));
         QTextCursor cursor = ui->textEdit->textCursor();
         QTextCharFormat charFormat = cursor.charFormat();
         QTextImageFormat imageFormat;
@@ -1557,11 +1558,12 @@ void MainWindow::Write(QString fileName)
     file.close();
  }
 bool MainWindow::fileSaveAs()
- {
+{
     QString *currentFilter  = new QString;
-    fn = QFileDialog::getSaveFileName(this, tr("Save as..."),
-   QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation)+"/"+
-   ui->textEdit->documentTitle(),tr("Text Documents(*.txt);;"
+        fn = QFileDialog::getSaveFileName(this, tr("Save as..."),
+        // FIXME: Add error check for empty array
+        QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation)[0]+"/"+
+        ui->textEdit->documentTitle(),tr("Text Documents(*.txt);;"
                            "HTML-Files(*.htm *.html);;"
                            "All Files (*)")
                            ,currentFilter);

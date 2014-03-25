@@ -8,7 +8,7 @@
  * ############################################
  */
 
-#include <QtGui/QApplication>
+#include <QApplication>
 #include "mainwindow.h"
 #include "checkupdates.h"
 int main(int argc, char *argv[])

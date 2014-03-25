@@ -1,4 +1,4 @@
-# cutepad.pro
+# CutePad.pro
 
 TEMPLATE = subdirs
-SUBDIRS = src
+SUBDIRS = Sources

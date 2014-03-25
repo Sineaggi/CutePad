@@ -15,6 +15,8 @@
 #include <QtCore>
 #include <QtGui>
 
+#include <QTextEdit>
+
 namespace Ui {
     class addLink;
 }
