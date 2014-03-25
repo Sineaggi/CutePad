@@ -1,0 +1,13 @@
+#########################################
+----------------Read Me------------------
+
+CutePad v0.1
+Originally created by Thusitha manathunga
+Faculty of Engineering
+University of Ruhuna
+Sri lanka
+-------------------------------------
+Built on Qt 4.8.2 (C++)
+2012
+-------------------------------------
+Distributed under LGPL license.

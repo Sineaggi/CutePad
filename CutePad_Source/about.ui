@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>About</class>
+ <widget class="QDialog" name="About">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>560</width>
+    <height>308</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>About CutePad</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resources.qrc">
+    <normaloff>:/Images/Images/icon.png</normaloff>:/Images/Images/icon.png</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>0.100000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+background : white;
+Image : url(:/Images/Images/About.png);
+border : 4px solid gray;
+}</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>250</y>
+     <width>43</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>About Qt</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color : white;
+background : green;
+border : 1px solid green;
+border-radius :15px;
+
+
+}
+QPushButton:hover , QPushButton:pressed{
+color : white;
+background : blue;
+border : 2px solid blue;
+border-radius :15px;
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Qt</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>327</x>
+     <y>98</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>10</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color : blue;
+background : none;
+border : none;
+}
+QPushButton:hover , QPushButton:pressed{
+color : purple;
+background : none;
+border : none;
+}</string>
+   </property>
+   <property name="text">
+    <string>serandibsoft@gmail.com</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>186</y>
+     <width>171</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>10</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color : blue;
+background : none;
+border : none;
+}
+QPushButton:hover , QPushButton:pressed{
+color : purple;
+background : none;
+border : none;
+}</string>
+   </property>
+   <property name="text">
+    <string>www.serandibsoft.com</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="versionLabel">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>55</y>
+     <width>46</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+color : gray;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>1.0</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>6</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>15</width>
+     <height>15</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Grande</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>Close</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton{
+Image : url(:/Images/Images/close.png);
+background : solid white;
+border : 0px  solid white;
+color : white;
+}
+QToolButton:hover , QToolButton:selected{
+Image : url(:/Images/Images/close_hover.png);
+border : 0px  solid  rgb(27,161,226);
+color : white;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>17</width>
+     <height>17</height>
+    </size>
+   </property>
+   <property name="popupMode">
+    <enum>QToolButton::DelayedPopup</enum>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonIconOnly</enum>
+   </property>
+   <property name="autoRaise">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
