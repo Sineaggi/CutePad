@@ -1731,7 +1731,8 @@ void MainWindow::resetSettings()
 void MainWindow::on_openFileButton_clicked()
 {
     QString filePath = QFileDialog::getOpenFileName(this, tr("Open..."),
-          QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation),
+          // FIXME: Add error check for empty array
+          QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation)[0],
                                               tr("Text Documents (*.txt);;"
                                                  "All Files (*)"));
     ui->textEdit->setUndoRedoEnabled(false);
@@ -1838,7 +1839,8 @@ void MainWindow::on_toPdf_button_clicked()
 {
     //to PDF
     QString pdfPath = QFileDialog::getSaveFileName(this, "Export PDF",
-    QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation)+
+    // FIXME: Add error check for empty array
+    QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation)[0]+
     "/"+ui->textEdit->documentTitle(),"*.pdf");
 
     if (!pdfPath.isEmpty())

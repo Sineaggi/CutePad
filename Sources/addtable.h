@@ -14,6 +14,8 @@
 #include <QtGui>
 
 #include <QDialog>
+#include <QTextEdit>
+#include <QColorDialog>
 
 namespace Ui {
     class addTable;

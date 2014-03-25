@@ -23,7 +23,8 @@ void checkUpdates::getParent(QWidget *parent)
 
 void checkUpdates::doCheck()
 {
-
+    // FIXME: Port to non-deprecated methods
+    /*
     http = new QHttp(this);
 
     connect(http ,SIGNAL(stateChanged(int)),this,SLOT(stateChanged(int)));
@@ -33,8 +34,9 @@ void checkUpdates::doCheck()
 
     http->setHost("www.serandibsoft.com");
     http->get("/uploads/8/3/5/2/8352420/cute_editor.xml");
-
+    */
 }
+
 void checkUpdates::stateChanged ( int state )
 {
     switch(state)
@@ -65,6 +67,8 @@ void checkUpdates::stateChanged ( int state )
 
 }
 
+// FIXME: Port to non-deprecated methods
+/*
 void checkUpdates::responseHeaderReceived ( const QHttpResponseHeader & resp )
 {
     qDebug() << "Size : " << resp.contentLength();
@@ -72,9 +76,12 @@ void checkUpdates::responseHeaderReceived ( const QHttpResponseHeader & resp )
     qDebug() << "State : " << resp.statusCode();
 
 }
+*/
 
 void checkUpdates::requestFinished ( int id, bool error )
 {
+    // FIXME: Port to non-deprecated methods
+    /*
     QString newVersion;
     QString features;
     QString link;
@@ -151,8 +158,7 @@ void checkUpdates::requestFinished ( int id, bool error )
          }
 
      }
-
-
+    */
 }
 
 

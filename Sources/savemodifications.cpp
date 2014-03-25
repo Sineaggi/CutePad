@@ -124,8 +124,9 @@ bool SaveModifications::fileSaveAs()
 {
     QString *currentFilter  = new QString;
     QString fn = QFileDialog::getSaveFileName(this, tr("Save as..."),
-  QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation)+
-   "/"+textEdit->documentTitle(),
+    // FIXME: Add error check for empty array
+    QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation)[0]+
+    "/"+textEdit->documentTitle(),
     tr(
     "Text Documents(*.txt);;"
     "HTML-Files(*.htm *.html);;"

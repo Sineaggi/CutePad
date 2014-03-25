@@ -17,6 +17,9 @@
 #include <QTabWidget>
 #include <QLineEdit>
 #include <QLabel>
+#include <QTextEdit>
+#include <QFileDialog>
+#include <QMessageBox>
 
 namespace Ui {
     class SaveModifications;
