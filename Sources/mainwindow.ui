@@ -1234,11 +1234,7 @@ color : white;
           </property>
           <property name="styleSheet">
            <string notr="true">QTabWidget::pane { /* The tab widget frame */
-     position: absolute;
-}
-
-QTabWidget {
-    background-color: rgb(0, 0, 0);
+    position: absolute;
 }
 
 QTabWidget::tab-bar {
@@ -1279,6 +1275,9 @@ QTabBar::tab {
           </property>
           <property name="currentIndex">
            <number>0</number>
+          </property>
+          <property name="usesScrollButtons">
+           <bool>false</bool>
           </property>
           <widget class="QWidget" name="tab_5">
            <attribute name="title">
