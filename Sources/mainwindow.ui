@@ -5198,14 +5198,15 @@ background : none;
               </property>
               <property name="styleSheet">
                <string notr="true">QPushButton {
-
-background :none;
-border : 0px  solid rgb(172,172,172);
-color : rgb(75, 75, 75);
-
+    background: none;
+    /*border: 0px  solid rgb(172,172,172);*/
+    border: none;
+    /*color: rgb(75, 75, 75);*/
+    color: white;
 }
- QPushButton:hover , QPushButton:selected  ,  QPushButton:checked {
-color :  rgb(255, 25, 25);
+
+QPushButton:hover, QPushButton:selected, QPushButton:checked {
+    color: rgb(255, 25, 25);
 }
 </string>
               </property>
@@ -5263,15 +5264,15 @@ color :  rgb(255, 25, 25);
               </property>
               <property name="styleSheet">
                <string notr="true">QPushButton {
-
-background : none;
-border : 0px  solid rgb(172,172,172);
-color : rgb(75, 75, 75);
-
+    background : none;
+    /*border: 0px solid rgb(172,172,172);*/
+    border: none;
+    /*color: rgb(75, 75, 75);*/
+    color: white;
 }
- QPushButton:hover , QPushButton:selected  ,  QPushButton:checked {
-color :  rgb(27,161,226);
 
+QPushButton:hover, QPushButton:selected, QPushButton:checked {
+    color: rgb(27,161,226);
 }
 </string>
               </property>
@@ -5598,15 +5599,15 @@ color : white;
               </property>
               <property name="styleSheet">
                <string notr="true">QPushButton {
-
-background :none;
-border : 0px  solid rgb(172,172,172);
-color : rgb(75, 75, 75);
-
+    background: none;
+    /*border : 0px  solid rgb(172,172,172);*/
+    border: none;
+    /*color: rgb(75, 75, 75);*/
+    color: white;
 }
- QPushButton:hover , QPushButton:selected  ,  QPushButton:checked {
-color :  rgb(27,161,226);
 
+QPushButton:hover, QPushButton:selected, QPushButton:checked {
+    color:  rgb(27,161,226);
 }
 </string>
               </property>
@@ -5664,14 +5665,15 @@ color :  rgb(27,161,226);
               </property>
               <property name="styleSheet">
                <string notr="true">QPushButton {
-
-background :none;
-border : 0px  solid rgb(172,172,172);
-color : rgb(75, 75, 75);
-
+    background: none;
+    /*border : 0px  solid rgb(172,172,172);*/
+    border: none;
+    /*color : rgb(75, 75, 75);*/
+    color: white;
 }
- QPushButton:hover , QPushButton:selected  ,  QPushButton:checked {
-color :  rgb(255, 25, 25);
+
+QPushButton:hover, QPushButton:selected, QPushButton:checked {
+    color: rgb(255, 25, 25);
 }
 </string>
               </property>
