@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>684</width>
+    <width>1052</width>
     <height>675</height>
    </rect>
   </property>
@@ -883,7 +883,7 @@ QTabBar::tab:hover {
        <enum>QTabWidget::Triangular</enum>
       </property>
       <property name="currentIndex">
-       <number>2</number>
+       <number>3</number>
       </property>
       <property name="elideMode">
        <enum>Qt::ElideNone</enum>
@@ -901,6 +901,9 @@ QTabBar::tab:hover {
        <bool>false</bool>
       </property>
       <widget class="QWidget" name="tab_2">
+       <property name="styleSheet">
+        <string notr="true">border: none;</string>
+       </property>
        <attribute name="title">
         <string>    &amp;write  </string>
        </attribute>
@@ -1204,6 +1207,9 @@ color : white;
        </layout>
       </widget>
       <widget class="QWidget" name="tab">
+       <property name="styleSheet">
+        <string notr="true">border: none;</string>
+       </property>
        <attribute name="title">
         <string> &amp;format  </string>
        </attribute>
@@ -2697,8 +2703,8 @@ p, li { white-space: pre-wrap; }
                    <rect>
                     <x>31</x>
                     <y>32</y>
-                    <width>154</width>
-                    <height>21</height>
+                    <width>119</width>
+                    <height>20</height>
                    </rect>
                   </property>
                   <property name="font">
@@ -3170,7 +3176,7 @@ color :  rgb(27,161,226);
                    <bool>true</bool>
                   </property>
                   <attribute name="buttonGroup">
-                   <string>buttonGroup_2</string>
+                   <string notr="true">buttonGroup_2</string>
                   </attribute>
                  </widget>
                  <widget class="QPushButton" name="decreaseSpacing_button_3">
@@ -3232,7 +3238,7 @@ color :  rgb(255, 25, 25);
                    <bool>true</bool>
                   </property>
                   <attribute name="buttonGroup">
-                   <string>buttonGroup_2</string>
+                   <string notr="true">buttonGroup_2</string>
                   </attribute>
                  </widget>
                  <widget class="QLabel" name="label_16">
@@ -3326,7 +3332,7 @@ Image : url(:/Images/Images/left_hover.png);
                    <bool>true</bool>
                   </property>
                   <attribute name="buttonGroup">
-                   <string>buttonGroup</string>
+                   <string notr="true">buttonGroup</string>
                   </attribute>
                  </widget>
                  <widget class="QPushButton" name="pushButton_12">
@@ -3386,7 +3392,7 @@ Image : url(:/Images/Images/center_hover.png);
                    <bool>true</bool>
                   </property>
                   <attribute name="buttonGroup">
-                   <string>buttonGroup</string>
+                   <string notr="true">buttonGroup</string>
                   </attribute>
                  </widget>
                  <widget class="QPushButton" name="pushButton_13">
@@ -3446,7 +3452,7 @@ Image : url(:/Images/Images/right_hover.png);
                    <bool>true</bool>
                   </property>
                   <attribute name="buttonGroup">
-                   <string>buttonGroup</string>
+                   <string notr="true">buttonGroup</string>
                   </attribute>
                  </widget>
                  <widget class="QPushButton" name="pushButton_28">
@@ -3506,7 +3512,7 @@ Image : url(:/Images/Images/justify_hover.png);
                    <bool>true</bool>
                   </property>
                   <attribute name="buttonGroup">
-                   <string>buttonGroup</string>
+                   <string notr="true">buttonGroup</string>
                   </attribute>
                  </widget>
                  <widget class="QPushButton" name="decreaseSpacing_button">
@@ -4390,6 +4396,9 @@ color : white;
        </layout>
       </widget>
       <widget class="QWidget" name="tab_3">
+       <property name="styleSheet">
+        <string notr="true">border: none;</string>
+       </property>
        <attribute name="title">
         <string> &amp;insert  </string>
        </attribute>
@@ -4874,6 +4883,9 @@ color : rgb(27,161,226);
        </layout>
       </widget>
       <widget class="QWidget" name="tab_7">
+       <property name="styleSheet">
+        <string notr="true">border: none;</string>
+       </property>
        <attribute name="title">
         <string> &amp;find   </string>
        </attribute>
@@ -5215,7 +5227,7 @@ color :  rgb(255, 25, 25);
                <bool>true</bool>
               </property>
               <attribute name="buttonGroup">
-               <string>buttonGroup_3</string>
+               <string notr="true">buttonGroup_3</string>
               </attribute>
              </widget>
              <widget class="QPushButton" name="decreaseSpacing_button_5">
@@ -5281,7 +5293,7 @@ color :  rgb(27,161,226);
                <bool>false</bool>
               </property>
               <attribute name="buttonGroup">
-               <string>buttonGroup_3</string>
+               <string notr="true">buttonGroup_3</string>
               </attribute>
              </widget>
              <widget class="QPushButton" name="indentDecrease_button_11">
@@ -5616,7 +5628,7 @@ color :  rgb(27,161,226);
                <bool>false</bool>
               </property>
               <attribute name="buttonGroup">
-               <string>buttonGroup_4</string>
+               <string notr="true">buttonGroup_4</string>
               </attribute>
              </widget>
              <widget class="QPushButton" name="decreaseSpacing_button_7">
@@ -5681,7 +5693,7 @@ color :  rgb(255, 25, 25);
                <bool>true</bool>
               </property>
               <attribute name="buttonGroup">
-               <string>buttonGroup_4</string>
+               <string notr="true">buttonGroup_4</string>
               </attribute>
              </widget>
              <widget class="QLabel" name="label_33">
@@ -5851,7 +5863,7 @@ selection-background-color :rgb(27,161,226);
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Lucida Grande'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="acceptRichText">
          <bool>false</bool>
