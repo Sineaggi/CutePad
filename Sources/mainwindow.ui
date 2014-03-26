@@ -294,11 +294,9 @@ background:white;
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">QFrame{
-
-background : white;
-
-
+       <string notr="true">QFrame {
+    border: none;
+    background: white;
 }</string>
       </property>
       <property name="frameShape">
