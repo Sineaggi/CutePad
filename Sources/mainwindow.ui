@@ -5953,8 +5953,8 @@ border : 0px solid   rgb(40, 40, 40);
           <widget class="QPushButton" name="newFileButton">
            <property name="minimumSize">
             <size>
-             <width>38</width>
-             <height>38</height>
+             <width>48</width>
+             <height>48</height>
             </size>
            </property>
            <property name="font">
@@ -6003,8 +6003,8 @@ Ctrl+N</string>
           <widget class="QPushButton" name="openFileButton">
            <property name="minimumSize">
             <size>
-             <width>38</width>
-             <height>38</height>
+             <width>48</width>
+             <height>48</height>
             </size>
            </property>
            <property name="font">
@@ -6053,8 +6053,8 @@ Ctrl+O</string>
           <widget class="QPushButton" name="saveFileButton">
            <property name="minimumSize">
             <size>
-             <width>38</width>
-             <height>38</height>
+             <width>48</width>
+             <height>48</height>
             </size>
            </property>
            <property name="font">
@@ -6103,8 +6103,8 @@ Ctrl+S</string>
           <widget class="QPushButton" name="saveAsButton">
            <property name="minimumSize">
             <size>
-             <width>38</width>
-             <height>38</height>
+             <width>48</width>
+             <height>48</height>
             </size>
            </property>
            <property name="font">
@@ -6149,8 +6149,8 @@ Ctrl+S</string>
           <widget class="QPushButton" name="toPdf_button">
            <property name="minimumSize">
             <size>
-             <width>38</width>
-             <height>38</height>
+             <width>48</width>
+             <height>48</height>
             </size>
            </property>
            <property name="font">
@@ -6199,8 +6199,8 @@ Ctrl+Alt+P</string>
           <widget class="QPushButton" name="printButton">
            <property name="minimumSize">
             <size>
-             <width>35</width>
-             <height>38</height>
+             <width>48</width>
+             <height>48</height>
             </size>
            </property>
            <property name="maximumSize">
@@ -6255,8 +6255,8 @@ Ctrl+P</string>
           <widget class="QPushButton" name="pushButton">
            <property name="minimumSize">
             <size>
-             <width>39</width>
-             <height>38</height>
+             <width>48</width>
+             <height>48</height>
             </size>
            </property>
            <property name="maximumSize">
