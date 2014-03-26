@@ -5925,6 +5925,15 @@ border : 0px solid   rgb(40, 40, 40);
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
        <property name="bottomMargin">
         <number>0</number>
        </property>
@@ -5947,7 +5956,7 @@ border : 0px solid   rgb(40, 40, 40);
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout">
          <property name="spacing">
-          <number>3</number>
+          <number>12</number>
          </property>
          <item>
           <widget class="QPushButton" name="newFileButton">
@@ -5984,8 +5993,8 @@ Ctrl+N</string>
            </property>
            <property name="iconSize">
             <size>
-             <width>38</width>
-             <height>31</height>
+             <width>32</width>
+             <height>32</height>
             </size>
            </property>
            <property name="shortcut">
@@ -6034,8 +6043,8 @@ Ctrl+O</string>
            </property>
            <property name="iconSize">
             <size>
-             <width>38</width>
-             <height>31</height>
+             <width>32</width>
+             <height>32</height>
             </size>
            </property>
            <property name="shortcut">
@@ -6084,8 +6093,8 @@ Ctrl+S</string>
            </property>
            <property name="iconSize">
             <size>
-             <width>38</width>
-             <height>31</height>
+             <width>32</width>
+             <height>32</height>
             </size>
            </property>
            <property name="shortcut">
@@ -6133,8 +6142,8 @@ Ctrl+S</string>
            </property>
            <property name="iconSize">
             <size>
-             <width>38</width>
-             <height>31</height>
+             <width>32</width>
+             <height>32</height>
             </size>
            </property>
            <property name="default">
@@ -6180,8 +6189,8 @@ Ctrl+Alt+P</string>
            </property>
            <property name="iconSize">
             <size>
-             <width>38</width>
-             <height>31</height>
+             <width>32</width>
+             <height>32</height>
             </size>
            </property>
            <property name="shortcut">
@@ -6236,8 +6245,8 @@ Ctrl+P</string>
            </property>
            <property name="iconSize">
             <size>
-             <width>38</width>
-             <height>31</height>
+             <width>32</width>
+             <height>32</height>
             </size>
            </property>
            <property name="shortcut">
@@ -6281,8 +6290,8 @@ Ctrl+F</string>
            </property>
            <property name="iconSize">
             <size>
-             <width>38</width>
-             <height>31</height>
+             <width>32</width>
+             <height>32</height>
             </size>
            </property>
            <property name="shortcut">
