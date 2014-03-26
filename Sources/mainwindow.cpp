@@ -215,7 +215,12 @@ set->sync();
  }
 void MainWindow::setUserName()
 {
-    QByteArray userName = qgetenv("USERNAME");
+    QByteArray userName;
+#ifdef Q_OS_MAC
+    userName = qgetenv("USER");
+#else
+    userName = qgetenv("USERNAME");
+#endif
     ui->label_19->setStyleSheet("color : gray;");
     ui->label_19->setText(userName.toUpper());
 }
