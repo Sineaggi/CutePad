@@ -903,7 +903,7 @@ QTabBar::tab:hover {
        <enum>QTabWidget::Triangular</enum>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <property name="elideMode">
        <enum>Qt::ElideNone</enum>
@@ -5847,13 +5847,12 @@ background : none;
          <bool>false</bool>
         </property>
         <property name="styleSheet">
-         <string notr="true">QTextEdit{
-border-left : 15px solid qlineargradient(spread:pad, x1:1, y1:0.496045, x2:0, y2:0.491, stop:0 rgba(0, 0, 0, 68), stop:1 rgba(255, 255, 255, 255));
-border-right : 15px solid qlineargradient(spread:pad, x0:1, y1:0.610091, x2:1, y2:0.615591, stop:0 rgba(0, 0, 0, 68), stop:1 rgba(255, 255, 255, 255));
-border-top :0px;
-border-bottom :0px;
-selection-background-color :rgb(27,161,226);
-
+         <string notr="true">QTextEdit {
+    border-left : 15px solid qlineargradient(spread:pad, x1:1, y1:0.496045, x2:0, y2:0.491, stop:0 rgb(213, 213, 213), stop:1 rgb(255, 255, 255));
+    border-right : 15px solid qlineargradient(spread:pad, x0:1, y1:0.610091, x2:1, y2:0.615591, stop:0 rgb(213, 213, 213), stop:1 rgb(255, 255, 255));
+    border-top: none;
+    border-bottom: none;
+    /*selection-background-color :rgb(27,161,226);*/
 }
 </string>
         </property>
