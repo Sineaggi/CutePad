@@ -547,8 +547,8 @@ color : rgb(27,161,226);
          </property>
          <property name="minimumSize">
           <size>
-           <width>31</width>
-           <height>34</height>
+           <width>32</width>
+           <height>32</height>
           </size>
          </property>
          <property name="font">
@@ -576,7 +576,7 @@ border: 2px;
           <pixmap resource="Resources.qrc">:/Images/Images/windows_logo.png</pixmap>
          </property>
          <property name="scaledContents">
-          <bool>true</bool>
+          <bool>false</bool>
          </property>
         </widget>
        </item>
