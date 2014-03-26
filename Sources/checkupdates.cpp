@@ -62,9 +62,7 @@ void checkUpdates::stateChanged ( int state )
     case 6:
                 qDebug() << "Closing...";
                 break;
-       }
-
-
+    }
 }
 
 // FIXME: Port to non-deprecated methods
@@ -156,7 +154,6 @@ void checkUpdates::requestFinished ( int id, bool error )
          {
           file->remove(QDir::tempPath() + "/cute_editor.xml");
          }
-
      }
     */
 }
