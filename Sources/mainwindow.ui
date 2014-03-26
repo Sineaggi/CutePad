@@ -881,7 +881,7 @@ QTabBar::tab:hover {
        <enum>QTabWidget::Triangular</enum>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>1</number>
       </property>
       <property name="elideMode">
        <enum>Qt::ElideNone</enum>
@@ -1273,7 +1273,7 @@ QTabWidget{
            <enum>QTabWidget::Triangular</enum>
           </property>
           <property name="currentIndex">
-           <number>0</number>
+           <number>1</number>
           </property>
           <widget class="QWidget" name="tab_5">
            <attribute name="title">
@@ -3146,15 +3146,15 @@ p, li { white-space: pre-wrap; }
                   </property>
                   <property name="styleSheet">
                    <string notr="true">QPushButton {
-
-background : solid black;
-border : 0px  solid rgb(172,172,172);
-color : rgb(75, 75, 75);
-
+    background: solid black;
+    /*border : 0px  solid rgb(172,172,172);
+    color : rgb(75, 75, 75);*/
+    border: none;
+    color: white;
 }
- QPushButton:hover , QPushButton:selected  ,  QPushButton:checked {
-color :  rgb(27,161,226);
 
+QPushButton:hover, QPushButton:selected, QPushButton:checked {
+    color:  rgb(27,161,226);
 }
 </string>
                   </property>
@@ -3212,14 +3212,15 @@ color :  rgb(27,161,226);
                   </property>
                   <property name="styleSheet">
                    <string notr="true">QPushButton {
-
-background : solid black;
-border : 0px  solid rgb(172,172,172);
-color : rgb(75, 75, 75);
-
+    background : solid black;
+    /*border: 0px  solid rgb(172,172,172);
+    color: rgb(75, 75, 75);*/
+    border: none;
+    color: white;
 }
- QPushButton:hover , QPushButton:selected  ,  QPushButton:checked {
-color :  rgb(255, 25, 25);
+
+QPushButton:hover, QPushButton:selected, QPushButton:checked {
+    color: rgb(255, 25, 25);
 }
 </string>
                   </property>
